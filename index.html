@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home - Hassan Muhammad</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef3f8;
+}
+
+header{
+    background:linear-gradient(90deg,#003366,#007BFF);
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+nav{
+    background:#0056b3;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:12px;
+    font-size:17px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.hero{
+    width:90%;
+    margin:40px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.text{
+    width:50%;
+}
+
+.text h2{
+    color:#003366;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.text p{
+    font-size:20px;
+    line-height:1.8;
+    color:#333;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 35px;
+    background:#007BFF;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-size:18px;
+    transition:0.3s ease-in-out ;
+}
+
+.btn:hover{
+    background:#003366;
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgb(70, 70, 71);
+
+}
+
+.image{
+    width:40%;
+    text-align:center;
+}
+
+.image img{
+    width:300px;
+    border-radius:50%;
+    box-shadow:0 0 20px gray;
+}
+
+.cards{
+    width:90%;
+    margin:50px auto;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:30%;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 15px lightgray;
+    text-align:center;
+    margin-bottom:20px;
+    transition:0.5s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#003366;
+    margin-bottom:15px;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media(max-width:900px){
+
+.text,.image{
+    width:100%;
+    text-align:center;
+}
+
+.card{
+    width:100%;
+}
+
+.image img{
+    margin-top:30px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Hassan Muhammad</h1>
+
+<p>Personal Portfolio Website</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="about.html">About</a>
+
+<a href="education.html">Education</a>
+
+<a href="skills.html">Skills</a>
+
+<a href="achievement.html">Achievements</a>
+
+<a href="goals.html">Goal</a>
+
+<a href="service.html">services</a>
+
+<a href="youtube.html">YouTube</a>
+
+<a href="contact.html">Contact</a>
+
+<a href="media.html">media</a>
+
+</nav>
+
+<section class="hero">
+
+<div class="text">
+
+<h2>Welcome!</h2>
+
+<p>
+
+Hello! My name is <strong>Hassan Muhammad</strong>. I am a Level 2 student at Northwest University, Kano, Nigeria.
+
+This website introduces you to my education, skills, achievements, projects, gallery, YouTube page, and contact information.
+
+Thank you for visiting my personal website.
+
+</p>
+
+<a href="about.html" class="btn">Learn More</a>
+
+</div>
+
+<div class="image">
+
+<img src="hassan.jpg" alt="Profile Picture">
+
+</div>
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+
+<h3>About Me</h3>
+
+<p>Learn more about my background, interests, and career goals.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Education</h3>
+
+<p>See my educational journey and academic qualifications.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Projects</h3>
+
+<p>Explore some of the websites and programming projects I have created.</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>&copy; 2026 Hassan Muhammad | Northwest University, Kano</p>
+
+</footer>
+
+</body>
+</html>
